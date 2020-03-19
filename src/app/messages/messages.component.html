@@ -1,0 +1,22 @@
+<agm-map
+  [latitude]="latitude"
+  [longitude]="longitude"
+  [zoom]="zoom"
+  [mapTypeControl]="true"
+  [fullscreenControl]="screenOptions"
+>
+  <agm-marker
+    *ngFor="let loca of Locations; let i = index"
+    (markerClick)="clickedMarker(infowindow)"
+    [latitude]="loca.latitude"
+    [longitude]="loca.longitude"
+    [title]="loca.title"
+    [iconUrl]="loca.IconUrl"
+  >
+    <agm-info-window #infowindow>
+      <div>
+        {{ loca.Message }}
+      </div>
+    </agm-info-window>
+  </agm-marker>
+</agm-map>

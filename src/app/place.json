@@ -1,0 +1,54 @@
+{
+  "locations": [
+    {
+      "title": "Damascus",
+      "latitude": 33.510414,
+      "longitude": 36.278336
+    },
+    {
+      "title": "Mogadishu",
+      "latitude": 2.046934,
+      "longitude": 45.318161
+    },
+    {
+      "title": "Ibiza",
+      "latitude": 38.906986,
+      "longitude": 1.421416
+    },
+    {
+      "title": "Cairo, Egypt",
+      "latitude": 30.033333,
+      "longitude": 31.233334
+    },
+    {
+      "title": "Tahrir",
+      "latitude": 30.045916,
+      "longitude": 31.224291
+    },
+    {
+      "title": "Nairobi",
+      "latitude": -1.286389,
+      "longitude": 36.817223
+    },
+    {
+      "title": "Kathmandu",
+      "latitude": 27.700769,
+      "longitude": 85.30014
+    },
+    {
+      "title": "Bernabau, Madrid, Spain",
+      "latitude": 40.416775,
+      "longitude": -3.70379
+    },
+    {
+      "title": "Athens",
+      "latitude": 37.937225,
+      "longitude": 23.945238
+    },
+    {
+      "title": "Istanbul",
+      "latitude": 41.015137,
+      "longitude": 28.97953
+    }
+  ]
+}
